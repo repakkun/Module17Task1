@@ -32,7 +32,8 @@ namespace Module17Task1
                 throw new ArgumentException();
                 throw new DivideByZeroException();               
                 throw new FieldAccessException();
-                throw new FormatException(); 
+                throw new FormatException();
+                throw new MyException();
             }
             catch(Exception)
             {
